@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter" />
+        <listener class-name="org.testng.reporters.FailedReporter" />
+    </listeners>
+    <test name="Regression suite 1" >
+        <classes>
+            <class name="pack1.Test1"/>
+        </classes>
+    </test>
+</suite>
